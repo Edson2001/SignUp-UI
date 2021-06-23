@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+      <div className="img">
+        <img src="./1_u9E_tiaCY980rEJVePum_Q.jpeg" />
+      </div>
+
+      <div className="content">
+        <h1>Ipsum?</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. </p>
+        <p> 
+          O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+           quando uma misturou os caracteres de um texto para criar um espécime de livro.
+        </p>
+
+
+        <div className="signup">
+
+          <h4>SIGN UP</h4>
+
+          <div className="inputs">
+            <input type="text" placeholder="User" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Repeat Password" />
+            <button>Go</button>
+            <span>Already have an account? Sign In</span>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
   );
 }
